@@ -1,0 +1,45 @@
+body {
+  background: url("../Frequently Asked Questions/test.jpg") no-repeat center
+    center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 65%;
+  height: 250px;
+  background-color: #fff3;
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+}
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 70px auto;
+  padding: 15px;
+}
+.buttons {
+  text-align: center;
+}
+button {
+  margin: 0 10px;
+  border: none;
+}
+button i {
+  font-size: 2rem;
+  padding: 10px;
+  color: #fff;
+  width: 80px;
+  cursor: pointer;
+}
+#play {
+  background-color: green;
+}
+#pause {
+  background-color: orange;
+}
+#reset {
+  background-color: red;
+}
